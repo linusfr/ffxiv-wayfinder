@@ -1,0 +1,27 @@
+[
+  {
+    "Author": "linusfr",
+    "Name": "Wayfinder",
+    "InternalName": "Wayfinder",
+    "Punchline": "Adds a fuzzy search box to the Duty Finder and the Teleport window.",
+    "Description": "Docks a search field under the game's own Duty Finder and Teleport windows. Type part of a name — \"aurum\", \"arum\", \"vale\", \"alex\", \"radz\" — and pick from ranked results; the game's own window then does the selecting, queueing and teleporting exactly as if you had clicked the row yourself. Search and filter only: no automation, no queueing for you, no bypassing unlocks, level requirements or gil costs.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "search",
+      "duty",
+      "dutyfinder",
+      "teleport",
+      "ui",
+      "utility",
+      "quality-of-life"
+    ],
+    "AssemblyVersion": "1.0.0.0",
+    "RepoUrl": "https://github.com/linusfr/ffxiv-wayfinder",
+    "DownloadLinkInstall": "https://github.com/linusfr/ffxiv-wayfinder/releases/latest/download/Wayfinder.zip",
+    "DownloadLinkUpdate": "https://github.com/linusfr/ffxiv-wayfinder/releases/latest/download/Wayfinder.zip",
+    "DownloadLinkTesting": "https://github.com/linusfr/ffxiv-wayfinder/releases/latest/download/Wayfinder.zip",
+    "LastUpdated": 0,
+    "IconUrl": "https://raw.githubusercontent.com/linusfr/ffxiv-wayfinder/main/images/icon.png"
+  }
+]
