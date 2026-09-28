@@ -1,10 +1,13 @@
-# Wayfinder
-
-[![latest](https://img.shields.io/github/v/release/linusfr/ffxiv-wayfinder?sort=semver&display_name=tag&label=latest&color=blue&cacheSeconds=300)](https://github.com/linusfr/ffxiv-wayfinder/releases/latest)
-[![ci](https://img.shields.io/github/actions/workflow/status/linusfr/ffxiv-wayfinder/ci.yml?branch=main&label=ci&cacheSeconds=300)](https://github.com/linusfr/ffxiv-wayfinder/actions/workflows/ci.yml)
-[![licence](https://img.shields.io/github/license/linusfr/ffxiv-wayfinder?color=blue)](LICENSE)
-
-> Type the name instead of hunting the category.
+<div align="center">
+	<img src="images/icon.png" alt="Wayfinder icon" width="128">
+	<h1>Wayfinder</h1>
+	<p>Type the name instead of hunting the category.</p>
+	<p>
+		<a href="https://github.com/linusfr/ffxiv-wayfinder/releases/latest"><img src="https://img.shields.io/github/v/release/linusfr/ffxiv-wayfinder?sort=semver&amp;display_name=tag&amp;label=latest&amp;color=blue&amp;cacheSeconds=300" alt="Latest release"></a>
+		<a href="https://github.com/linusfr/ffxiv-wayfinder/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/linusfr/ffxiv-wayfinder/ci.yml?branch=main&amp;label=ci&amp;cacheSeconds=300" alt="CI status"></a>
+		<a href="LICENSE"><img src="https://img.shields.io/github/license/linusfr/ffxiv-wayfinder?color=blue" alt="MIT license"></a>
+	</p>
+</div>
 
 The Duty Finder asks which of ten tabs your duty is in. The Teleport window asks
 which region. Wayfinder adds a search box to both and then gets out of the way:
@@ -49,13 +52,14 @@ wanted down the list.
 
 ## Install
 
-`/xlsettings` → **Experimental** → Custom Plugin Repositories → paste, `+`, save:
+In `/xlsettings`, open **Experimental** > **Custom Plugin Repositories**, paste
+this URL, click `+`, then save:
 
 ```
 https://raw.githubusercontent.com/linusfr/ffxiv-wayfinder/main/pluginmaster.json
 ```
 
-Then `/xlplugins` → **Wayfinder** → Install.
+Then open `/xlplugins`, search for **Wayfinder**, and select **Install**.
 
 ## Use
 
@@ -133,6 +137,6 @@ CI builds on `windows-latest` because Dalamud needs the Windows targeting pack.
 not as a file. `go-semantic-release` reads conventional commits on `main` and
 updates `pluginmaster.json`.
 
-## Licence
+## License
 
-MIT — see [`LICENSE`](LICENSE).
+MIT, see [`LICENSE`](LICENSE).
